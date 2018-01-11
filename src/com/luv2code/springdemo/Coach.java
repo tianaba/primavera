@@ -9,10 +9,6 @@ package com.luv2code.springdemo;
  *
  * @author ynnait
  */
-public class BaseballCoach implements Coach{
-    
-    @Override
-    public String getDailyWorkout(){
-        return "Spend 30 minutes on batting practice";
-    }
+public interface Coach {
+    public String getDailyWorkout();
 }
